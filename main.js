@@ -66,7 +66,7 @@ contacts.forEach(contact => {
   <div class="d-flex space-between">
     <p>
       <i class="fa fa-fw fa-phone"></i>
-      <span>${contact.phone}</span>
+      <span>${contact.phoneNumber}</span>
     </p>
     <i class="action fa fa-trash text-danger" onclick="removeContact(${contact.id}
     )"></i>
